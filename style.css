@@ -1,0 +1,77 @@
+/* 1. Pengaturan Dasar Halaman */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f9; /* Warna latar belakang halaman */
+  margin: 0;
+  padding: 0;
+  
+  /* Membuat kartu berada tepat di tengah layar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* 2. Styling Desain Kartu */
+.card {
+  background-color: #ffffff; /* Warna latar kartu */
+  width: 320px;
+  padding: 24px;
+  border-radius: 16px; /* Membuat sudut kartu melengkung */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Bayangan lembut di bawah kartu */
+  text-align: center; /* Meratakan semua teks ke tengah */
+}
+
+/* 3. Styling Foto Profil */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran sempurna */
+  object-fit: cover;
+  margin-bottom: 16px;
+  border: 3px solid #007bff;
+}
+
+/* 4. Styling Teks */
+.name {
+  margin: 0 0 8px 0;
+  font-size: 22px;
+  color: #333333;
+}
+
+.title {
+  margin: 0 0 16px 0;
+  font-size: 14px;
+  color: #007bff; /* Warna biru untuk profesi */
+  font-weight: bold;
+}
+
+.bio {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+/* 5. Styling Tombol Link */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Jarak antar tombol */
+}
+
+.btn {
+  text-decoration: none; /* Menghilangkan garis bawah pada link */
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+/* Efek saat kursor diarahkan ke tombol */
+.btn:hover {
+  background-color: #0056b3;
+}
