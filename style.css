@@ -29,7 +29,7 @@ body {
   border-radius: 50%; /* Membuat gambar berbentuk lingkaran sempurna */
   object-fit: cover;
   margin-bottom: 16px;
-  border: 3px solid #007bff;
+  border: 5px solid #443109;
 }
 
 /* 4. Styling Teks */
